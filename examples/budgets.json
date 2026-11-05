@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "origins": {
+    "https://app.example.test": {
+      "max_requests": 2,
+      "max_known_response_bytes": 350,
+      "max_p95_ms": 30
+    },
+    "https://cdn.example.test": {
+      "max_requests": 1,
+      "max_known_response_bytes": 70,
+      "max_p95_ms": 50
+    }
+  }
+}

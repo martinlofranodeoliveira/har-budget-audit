@@ -1,0 +1,10 @@
+name: har_budget_audit
+version: 0.1.0
+description: Local, bounded HAR 1.2 subset analysis against explicit origin budgets.
+publish_to: none
+homepage: https://lofranotecnologia.com.br
+repository: https://github.com/martinlofranodeoliveira/har-budget-audit
+environment:
+  sdk: '>=3.13.0 <4.0.0'
+dev_dependencies:
+  test: 1.25.15
